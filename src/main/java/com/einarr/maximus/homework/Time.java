@@ -1,3 +1,5 @@
+package com.einarr.maximus.homework;
+
 public class Time {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.einarr.maximus.homework;
+
 import java.util.Random;
 
 public class Number {
