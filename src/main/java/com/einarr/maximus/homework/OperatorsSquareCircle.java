@@ -2,7 +2,7 @@ package com.einarr.maximus.homework;
 
 import java.util.Random;
 
-public class SquareCircle {
+public class OperatorsSquareCircle {
 
     public static void main(String[] args) {
 

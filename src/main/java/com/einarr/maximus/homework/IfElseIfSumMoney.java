@@ -2,7 +2,7 @@ package com.einarr.maximus.homework;
 
 import java.util.Random;
 
-public class SumMoney {
+public class IfElseIfSumMoney {
 
     public static void main(String[] args) {
 

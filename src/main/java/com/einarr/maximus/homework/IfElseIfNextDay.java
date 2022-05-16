@@ -1,12 +1,8 @@
 package com.einarr.maximus.homework;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Random;
 
-public class NextDay {
+public class IfElseIfNextDay {
 
     public static void main(String[] args) {
 

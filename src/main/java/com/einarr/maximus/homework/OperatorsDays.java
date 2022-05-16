@@ -1,6 +1,6 @@
 package com.einarr.maximus.homework;
 
-public class Time {
+public class OperatorsDays {
 
     public static void main(String[] args) {
         int s = 37000;
