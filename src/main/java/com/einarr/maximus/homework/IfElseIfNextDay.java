@@ -9,7 +9,7 @@ public class IfElseIfNextDay {
         /* Имеются три числа - день, месяц, год. Вывести в виде трех
         чисел дату следующего дня. */
 
-       /* Calendar calendar = new GregorianCalendar();
+        /* Calendar calendar = new GregorianCalendar();
         Date date = calendar.getTime();
         System.out.println(date);*/
 
@@ -39,34 +39,24 @@ public class IfElseIfNextDay {
         int year = random.nextInt(10000);
         System.out.println("Дата " + day + " " + month + " " + year);
 
-        if (month == 12 && day == 31)
-        {
+        if (month == 12 && day == 31) {
             day = 1;
             month = 1;
-            year ++;
-        }
-        else if (month == 2 && day == 28 && (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)))
-        {
-            day ++;
+            year++;
+        } else if (month == 2 && day == 28 && (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))) {
+            day++;
             //month ++;
-        }
-        else if (month == 2 && (day == 28 || (day == 29 && year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))))
-        {
-            day = 1;
-            month ++;
-        }
-        else if ((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10) && day == 31)
-        {
-            day = 1;
-            month ++;
-        }
-        else if ((month == 4 || month == 6 || month == 9 || month == 11) && day == 30)
-        {
+        } else if (month == 2 && (day == 28 || (day == 29 && year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)))) {
             day = 1;
             month++;
-        }
-        else
-            day ++;
+        } else if ((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10) && day == 31) {
+            day = 1;
+            month++;
+        } else if ((month == 4 || month == 6 || month == 9 || month == 11) && day == 30) {
+            day = 1;
+            month++;
+        } else
+            day++;
 
         if (day >= 30 && month == 2)
             System.out.println("Нет такой даты");

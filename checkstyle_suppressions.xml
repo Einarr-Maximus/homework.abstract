@@ -1,0 +1,4 @@
+<suppress files="." checks="JavadocPackage"/>
+<suppress files="." checks="JavadocStyle"/>
+<suppress files="." checks="MissingJavadocMethod"/>
+<suppress files="." checks="HideUtilityClassConstructor"/>

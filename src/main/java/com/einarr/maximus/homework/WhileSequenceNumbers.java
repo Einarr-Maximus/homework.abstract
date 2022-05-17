@@ -13,9 +13,8 @@ public class WhileSequenceNumbers {
         int count = random.nextInt(100);
         int max = 0;
 
-        while (count > 0)
-        {
-            count --;
+        while (count > 0) {
+            count--;
             int x = random.nextInt(100000);
             if (x > max)
                 max = x;

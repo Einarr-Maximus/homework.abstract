@@ -14,8 +14,8 @@ public class OperatorNumber {
         int y = x % 10;
         if (y == 7)
             System.out.println("Последняя цифра числа " + x + " является 7");
-            else
-                System.out.println("Последняя цифра числа " + x + " не является 7");
+        else
+            System.out.println("Последняя цифра числа " + x + " не является 7");
 
     }
 }

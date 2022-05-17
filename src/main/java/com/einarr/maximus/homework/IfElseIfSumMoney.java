@@ -17,7 +17,7 @@ public class IfElseIfSumMoney {
         */
 
         Random random = new Random();
-        int money = random.nextInt (1000000);
+        int money = random.nextInt(1000000);
         String word;
         if (money % 10 == 1)
             word = "рубль";

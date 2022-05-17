@@ -9,19 +9,16 @@ public class WhileFactorial {
         double sr = 0;
         double sum = 0;
         int n = 0;
-        int x = (int) (Math.random()*20);
+        int x = (int) (Math.random() * 20);
 
-        while (x != 0)
-        {
+        while (x != 0) {
             sum += x;
-            n ++;
-            x = (int) (Math.random()*20);
+            n++;
+            x = (int) (Math.random() * 20);
         }
-        if (n != 0)
-        {
+        if (n != 0) {
             sr = sum / n;
-        }
-        else
+        } else
             sr = 0;
 
         System.out.println("Среднее: " + sr);
@@ -34,10 +31,9 @@ public class WhileFactorial {
         int factorial = 1;
         int count = number;
 
-        while (count > 0)
-        {
+        while (count > 0) {
             factorial = factorial * count;
-            count --;
+            count--;
         }
         System.out.println("Факториал числа " + number + " равен " + factorial);
     }
