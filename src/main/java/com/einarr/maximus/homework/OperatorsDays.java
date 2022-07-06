@@ -3,7 +3,7 @@ package com.einarr.maximus.homework;
 public class OperatorsDays {
 
     public static void main(String[] args) {
-        int s = 37000;
+        int s = 10;
         int sec = s % 60;
         int m = (s - sec) / 60;
         int min = m % 60;
